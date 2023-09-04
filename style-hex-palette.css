@@ -11,6 +11,22 @@ html {
     font-size: 62.5%;
 }
 
+::-webkit-scrollbar {
+    width: 1.5rem;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: 5px 5px 10px #0c0c0c inset,
+                -5px -5px 10px #4c4c4c inset;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5rem;
+    box-shadow: -5px -5px 5px #0c0c0c inset,
+                5px 5px 5px #4c4c4c inset;
+    background: #262626;
+}
+
 .btn {
     background: none;
     color: #fff;
